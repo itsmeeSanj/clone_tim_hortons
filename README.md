@@ -1,17 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# ☕ Clone Tim Hortons –
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Canadian-style coffee shop web application inspired by Tim Hortons. Built with **React** and **Firebase**, this project includes a dynamic menu, user authentication, shopping cart functionality, and an admin dashboard for managing products.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 User login and signup (Firebase Auth)
+- 📋 Dynamic menu fetched from Firestore
+- 🛒 Add to cart and cart summary
+- 🖼️ Image upload and storage via Firebase Storage
+- 🛠️ Admin panel to add/edit/delete products (protected route)
+- 🔥 Real-time updates with Firestore
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# clone_tim_hortons
- It's a cloned web app built with React and Firebase – featuring a dynamic menu, user authentication, cart system, and admin panel.
->>>>>>> 79e2e4c7390200147c1b607cc5f5db48e938e11f
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, CSS (or Tailwind)
+- **Backend-as-a-Service:** Firebase (Firestore, Auth, Storage)
+- **Routing:** React Router
+- **Deployment:** Firebase Hosting or Vercel
+
+---
