@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply box-border scroll-smooth;
+    font-size: 100%;
+  }
+
+  *,
+  *:before,
+  *::after {
+    @apply box-border;
+  }
+
+  ::placeholder {
+    @apply text-[15px] lowercase;
+  }
+
+  body {
+    @apply pb-0 mb-0 text-base overflow-x-hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+}
