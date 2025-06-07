@@ -10,6 +10,8 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ConfigProvider
       theme={{
+        // cssVar: true,
+
         token: {
           // Seed Token
           colorPrimary: "rgb(200, 16, 46)",
