@@ -5,12 +5,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // oleo: ["Oleo Script Swash Caps", "cursive"],
+        sans: ['"Open Sans", sans-serif'],
       },
-      // colors: {
-      //   transparent: "transparent",
-      //   primary: "#3f2021",
-      // },
     },
     // container: {
     //   center: true,

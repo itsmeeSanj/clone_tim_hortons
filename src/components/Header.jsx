@@ -1,5 +1,6 @@
 import { Space } from "antd";
 import React from "react";
+import { Link } from "react-router";
 
 const MenuItems = [
   {
@@ -35,7 +36,9 @@ function Header() {
     <>
       <Space>
         {MenuItems.map((menu, index) => (
-          <p key={index}>{menu.label}</p>
+          <Link to={menu.label} key={index}>
+            {menu.label}
+          </Link>
         ))}
       </Space>
     </>

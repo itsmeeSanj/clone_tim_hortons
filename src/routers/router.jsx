@@ -1,18 +1,29 @@
 import { createBrowserRouter } from "react-router";
-import { Home } from "./import";
+
+import { PublicRoot, Home, PageNotFound } from "./import";
 
 let router = createBrowserRouter([
   {
     path: "/",
+    Component: PublicRoot,
     children: [
       { index: true, Component: Home },
-      //   { path: "about", Component: About },
+      {
+        path: "*",
+        Component: PageNotFound,
+      },
     ],
   },
-  {
-    path: "*",
-    Component: () => <div>Oops! 404</div>,
-  },
+  // {
+  //   path: "*",
+  //   Component: PublicRoot,
+  //   children: [
+  //     {
+  //       index: true,
+  //       Component: PageNotFound,
+  //     },
+  //   ],
+  // },
 ]);
 
 export default router;

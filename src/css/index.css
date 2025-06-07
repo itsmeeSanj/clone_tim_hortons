@@ -4,8 +4,7 @@
 
 @layer base {
   html {
-    @apply box-border scroll-smooth;
-    font-size: 100%;
+    @apply box-border scroll-smooth font-sans;
   }
 
   *,
