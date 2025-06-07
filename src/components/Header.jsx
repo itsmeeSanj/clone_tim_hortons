@@ -1,11 +1,11 @@
-import React from "react";
+import { Button, Space, DatePicker } from "antd";
 
 function Header() {
   return (
-    <div className='container'>
-      <p>header</p>
-    </div>
+    <Space>
+      <DatePicker />
+      <Button type='primary'>Primary Button</Button>
+    </Space>
   );
 }
-
 export default Header;
