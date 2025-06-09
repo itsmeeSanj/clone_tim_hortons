@@ -19,6 +19,12 @@ export default {
     //   },
     // },
 
+    colors: {
+      transparent: "transparent",
+      primary: "#c8102e",
+      black: "",
+    },
+
     container: {
       center: true,
       padding: "1rem",
