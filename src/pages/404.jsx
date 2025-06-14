@@ -1,20 +1,24 @@
-import { Button, Space } from "antd";
+import { Space } from "antd";
+
+import Buttons from "@/components/Buttons";
+import baggel from "@/assets/baggle.svg";
 
 function PageNotFound() {
   return (
-    <div className='text-center w-1/4 mx-auto'>
-      <h1 className='text-2xl font-bold'>Whoops !</h1>
-      <p className='text-base font-medium'>
+    <div className='py-12 text-center w-1/5 mx-auto'>
+      <img src={baggel} alt='' />
+      <h2 className='font-bold mb-2'>Whoops !</h2>
+      <p className='text-[.9375rem] font-semibold leading-normal'>
         The page you were looking for was moved or doesn't exist
       </p>
 
       <Space direction='vertical' className='w-full'>
-        <Button type='primary' size='large' block shape='round'>
+        <Buttons type='primary' shape='round' size='large' block={true}>
           Homepage
-        </Button>
-        <Button type='default' size='large' shape='round' block>
+        </Buttons>
+        <Buttons shape='round' size='large' block={true} color='primary'>
           Refresh
-        </Button>
+        </Buttons>
       </Space>
     </div>
   );

@@ -37,7 +37,7 @@ function Header() {
       <div className='bg-primary'>
         <Space
           className='container w-full justify-between bg-primary'
-          align='end'
+          align='end' 
           size='large'
         >
           {/* <div className='navbar-start'>
