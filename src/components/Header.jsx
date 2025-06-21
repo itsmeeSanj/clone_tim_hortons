@@ -34,12 +34,8 @@ const MenuItems = [
 function Header() {
   return (
     <>
-      <div className='bg-primary'>
-        <Space
-          className='container w-full justify-between bg-primary'
-          align='end' 
-          size='large'
-        >
+      <div className='bg-primary container'>
+        <Space className='w-full justify-between' align='end' size='large'>
           {/* <div className='navbar-start'>
           <div className='dropdown'>
             <div

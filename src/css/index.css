@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #c8102e;
+}
 
 @layer base {
   html {
@@ -42,4 +44,28 @@
   p {
     @apply mb-4;
   }
+
+  a {
+    @apply text-primary;
+  }
+  a:hover {
+    @apply underline;
+  }
+}
+
+@utility container {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  /* @variant sm {
+    padding: 20px;
+    } */
+
+  @variant lg {
+    padding: 0 4.5rem;
+  }
+
+  /* @variant xl {
+    padding: 0 5.5rem;
+  } */
 }

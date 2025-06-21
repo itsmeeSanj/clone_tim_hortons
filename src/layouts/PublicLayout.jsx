@@ -12,6 +12,7 @@ function PublicLayout() {
         <Outlet />
       </main>
       {/*  */}
+
       <Footer />
     </>
   );
