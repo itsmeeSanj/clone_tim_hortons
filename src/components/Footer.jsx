@@ -40,7 +40,7 @@ export default function Footer() {
           />
         </div>
         <div className='py-5 grid grid-cols-1 md:grid-cols-2'>
-          <div>TM & © Tim Hortons, 2025</div>
+          <div>TM & © Tim H ortons, 2025</div>
           <div>TM & © Tim Hortons, 2025</div>
         </div>
       </div>
